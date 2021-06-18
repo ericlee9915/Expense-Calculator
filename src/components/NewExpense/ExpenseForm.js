@@ -51,10 +51,10 @@ const ExpenseForm = (props) => {
     };
 
     props.onSaveExpenseData(expenseData);
-    setEnteredTitle('');
-    setEnteredAmount('');
-    setEnteredDate('');
-    console.log('Form has been submitted and reset!')
+    setEnteredTitle("");
+    setEnteredAmount("");
+    setEnteredDate("");
+    console.log("Form has been submitted and reset!");
   };
 
   return (
@@ -74,7 +74,7 @@ const ExpenseForm = (props) => {
             type="number"
             min="0.01"
             step="0.01"
-            value = {enteredAmount}
+            value={enteredAmount}
             onChange={amountChangeHandler}
           />
         </div>
@@ -84,12 +84,13 @@ const ExpenseForm = (props) => {
             type="date"
             min="2021-01-01"
             max="2022-12-31"
-            value = {enteredDate}
+            value={enteredDate}
             onChange={dateChangeHandler}
           />
         </div>
       </div>
       <div className="new-expense__actions">
+        <button type="button" onClick = {props.onCancel}>Cancel</button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
