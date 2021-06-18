@@ -27,7 +27,7 @@ const expenses1 = [
     id: "e4",
     title: "Shoes",
     amount: 125.99,
-    date: new Date(2019, 2, 10),
+    date: new Date(2022, 2, 10),
   },
 ];
 const App = () => {
