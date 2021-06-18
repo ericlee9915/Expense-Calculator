@@ -9,7 +9,7 @@ const expenses1 = [
     id: "e1",
     title: "Car Insurance",
     amount: 299.99,
-    date: new Date(2021, 5, 15),
+    date: new Date(2022, 5, 15),
   },
   {
     id: "e2",
@@ -21,13 +21,13 @@ const expenses1 = [
     id: "e3",
     title: "Coffee",
     amount: 5.99,
-    date: new Date(2021, 4, 25),
+    date: new Date(2020, 4, 25),
   },
   {
     id: "e4",
     title: "Shoes",
     amount: 125.99,
-    date: new Date(2021, 2, 10),
+    date: new Date(2019, 2, 10),
   },
 ];
 const App = () => {
